@@ -1,0 +1,44 @@
+
+.volume {
+    position: relative;
+    /* border: 1px solid white; */
+    /* width: 44px; */
+}
+
+
+.volume-cover {
+    position: absolute;
+    /* border: 2px solid red; */
+    top: -350%;
+    left: -100%;
+    height: 30vh;
+}
+
+
+#volume {
+    /* width: 0; */
+    -webkit-appearance: none;
+    height: 13px;
+    width: 8rem;
+    background: white;
+    
+    transform: rotate(-90deg);
+    /* top: -200%; */
+   
+    box-shadow: 0 0 0 2px black,0 0 0 4px white;
+    outline: initial;
+    border-radius: 5px;
+
+
+}
+
+#volume::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   width: 25px;
+   height: 25px;
+   border-radius: 3px;
+   background: hotpink;
+   position: relative;
+   top: 0.2px;
+  
+}
